@@ -35,13 +35,13 @@ function App() {
     <>
       <header className="mb-5 h-60 flex flex-col items-center relative">
         <img
-          srcSet="./public/images/bg-header-mobile.png 320w"
-          src="./public/images/bg-header-desktop.png"
+          srcSet="../public/images/bg-header-mobile.png 320w"
+          src="../public/images/bg-header-desktop.png"
           alt="imagem de fundo"
           className=" h-full w-full z-0"
         />
         <img
-          src="/public/images/logo.svg"
+          src="../public/images/logo.svg"
           alt="imagem de fundo do cebeçalho"
           className="w-20 z-10 absolute mt-40"
         />
@@ -176,7 +176,7 @@ function App() {
       <footer className="bg-gray-100 text-grayish-blue">
         <div className=" flex flex-col md:flex-row items-center md:justify-evenly gap-10 p-14">
           <img
-            src="/public/images/logo.svg"
+            src="../public/images/logo.svg"
             alt="imagem de fundo do cebeçalho"
             className="w-14"
           />
