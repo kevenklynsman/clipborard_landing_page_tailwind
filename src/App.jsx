@@ -1,47 +1,47 @@
 function App() {
   const infos = [
     {
-      icon: "../public/images/icon-blacklist.svg",
+      icon: "./images/icon-blacklist.svg",
       title: "Create blacklists",
       info: "Ensure sensitive information never makes its way to your clipboar by excluding certain sources.",
     },
     {
-      icon: "../public/images/icon-text.svg",
+      icon: "./images/icon-text.svg",
       title: "Plain text snippets",
       info: " Remove unwanted formatting from copied text for a consistent look.",
     },
     {
-      icon: "../public/images/icon-preview.svg",
+      icon: "./images/icon-preview.svg",
       title: "Sneak preview",
       info: " Quick preview of all snippets on your Clipboard for easy access.",
     },
   ];
 
   const logos = [
-    { logo: "../public/images/logo-google.png" },
-    { logo: "../public/images/logo-ibm.png" },
-    { logo: "../public/images/logo-microsoft.png" },
-    { logo: "../public/images/logo-hp.png" },
-    { logo: "../public/images/logo-vector-graphics.png" },
+    { logo: "./images/logo-google.png" },
+    { logo: "./images/logo-ibm.png" },
+    { logo: "./images/logo-microsoft.png" },
+    { logo: "./images/logo-hp.png" },
+    { logo: "./images/logo-vector-graphics.png" },
   ];
 
   const links = [
-    { icon: "../public/images/icon-facebook.svg" },
-    { icon: "../public/images/icon-twitter.svg" },
-    { icon: "../public/images/icon-instagram.svg" },
+    { icon: "./images/icon-facebook.svg" },
+    { icon: "./images/icon-twitter.svg" },
+    { icon: "./images/icon-instagram.svg" },
   ];
 
   return (
     <>
       <header className="mb-5 h-60 flex flex-col items-center relative">
         <img
-          srcSet="../public/images/bg-header-mobile.png 320w"
-          src="../public/images/bg-header-desktop.png"
+          srcSet="./images/bg-header-mobile.png 320w"
+          src="./images/bg-header-desktop.png"
           alt="imagem de fundo"
           className=" h-full w-full z-0"
         />
         <img
-          src="../public/images/logo.svg"
+          src="./images/logo.svg"
           alt="imagem de fundo do cebeçalho"
           className="w-20 z-10 absolute mt-40"
         />
@@ -76,7 +76,7 @@ function App() {
         </div>
         <div className="flex flex-col md:flex-row gap-5 justify-center  mb-40">
           <img
-            src="../public/images/image-computer.png"
+            src="./images/image-computer.png"
             alt="Imagem de um computador"
             className="md:w-1/2"
           />
@@ -118,7 +118,7 @@ function App() {
             your Clipboard snippets in a few simple clicks.
           </p>
           <img
-            src="../public/images/image-devices.png"
+            src="./images/image-devices.png"
             alt="imagem de um cecular e um tablet"
           />
           <div className="text-center md:max-w-2xl">
@@ -176,7 +176,7 @@ function App() {
       <footer className="bg-gray-100 text-grayish-blue">
         <div className=" flex flex-col md:flex-row items-center md:justify-evenly gap-10 p-14">
           <img
-            src="../public/images/logo.svg"
+            src="./images/logo.svg"
             alt="imagem de fundo do cebeçalho"
             className="w-14"
           />
